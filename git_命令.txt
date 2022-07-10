@@ -1,0 +1,18 @@
+git status 		查看工作区
+git add			添加到暂存区
+git rm --cached  文件名	删除添加到暂存区的文件
+git commit -m   "日志信息"	文件名	添加到本地库
+git reflog			查看版本日志信息
+git log			查看详细版本日志信息
+git reset --hard  版本号码	版本窜梭
+git branch         分支名	创建分支
+git branch -v      		查看分支	
+git merge           分支民	把指定的分支合并到当前分支     master test
+git checkout       分支名	切换分支		debug test
+git remote rm 库名 		就可以删除库
+git remote -v		查看当前所用远程库地址名
+git remote add	别名 远程地址	地别名
+git push 	别名 分支 		推送本地分支上的内容到远程厂库
+git clone 远程地址		将远程仓库的内容克隆到本地
+git pull 	远程地址别名 远程分支别名  
+			将远程仓库对于分支最新内容拉下来后与当前本地分支合并
