@@ -18,3 +18,4 @@ git pull 	远程地址别名 远程分支别名
 			将远程仓库对于分支最新内容拉下来后与当前本地分支合并
 			github修改
 ssh--keygen -t rsa -C  howeverfate@gmail.com  -t指定加密算法  -C描述信息
+			git入门指令完结
